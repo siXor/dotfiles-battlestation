@@ -1,0 +1,14 @@
+[user]
+	name = Simon Fontana Oscarsson
+	email = sfo_93@hotmail.com
+[core]
+	filemode = true
+	pager = less -FRXiMq
+	autocrlf = false
+[color]
+	ui = auto
+[alias]
+	tree = log --decorate --oneline --graph --all --topo-order -30
+	treef = log --decorate --oneline --graph --all --topo-order
+	st = status
+	rank = shortlog -sn --no-merges
