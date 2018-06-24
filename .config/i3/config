@@ -252,10 +252,17 @@ exec_always xinput --set-prop 8 "Device Accel Constant Deceleration" 1.00
 exec_always .screenlayout/three_displays.sh
 
 # Background
-exec_always feh --bg-scale /home/simon/Pictures/backgrounds/northern_swedish_winter.jpg
+exec_always feh --bg-scale /home/simon/Pictures/wallpapers/city-highways-night.jpg
 
 # Lock computer
 bindsym $mod+shift+p exec i3lock
 
 # Set keyboard layout
 exec_always setxkbmap -layout us -variant altgr-intl -option nodeadkeys
+
+# i3-gaps. For some reason it's bugged
+gaps inner 15
+smart_gaps on
+
+# compton (opacity)
+exec_always --no-startup-id compton

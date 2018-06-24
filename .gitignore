@@ -5,6 +5,7 @@
 .ccm
 .compiz
 .config/Thunar
+.config/VirtualBox/
 .config/compiz-1/
 .config/dconf/
 .config/evolution/
@@ -17,6 +18,7 @@
 .config/mimeapps.list
 .config/monitors.xml
 .config/nautilus/
+.config/pavucontrol.ini
 .config/pulse/
 .config/spotify/Users/sixor-user/ad-state-storage.bnk
 .config/spotify/Users/sixor-user/local-files.bnk
@@ -26,6 +28,7 @@
 .config/spotify/Users/sixor-user/recently_played.bnk
 .config/spotify/Users/sixor-user/social_manager.bnk
 .config/spotify/Users/sixor-user/watch-sources.bnk
+.config/spotify/User\ Data/
 .config/spotify/prefs
 .config/spotify/window_position.prefs
 .config/unity/
@@ -47,13 +50,17 @@ git
 .gnome2
 .gnome2_private
 .gnupg
+.ICAClient/
 .ICEauthority
-.IdeaIC2016.3
+.IdeaIC2016.3/
+.IdeaIC2017.3/
 .IntelliJIdea2016.3
 .java
+.kube/
 .lesshst
 .local
 .m2
+.minikube/
 .mozilla
 Music
 .nv
@@ -69,6 +76,7 @@ Public
 .steampath
 .steampid
 .sudo_as_admin_successful
+.synaptic/
 Templates
 Videos
 .vim/.netrwhist
